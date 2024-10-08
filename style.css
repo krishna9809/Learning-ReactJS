@@ -1,0 +1,10 @@
+#child{
+    color: red;
+    font-size: 30px;
+}
+
+#child2{
+    color:blue;;
+    font-size: large;
+    border: 1px solid black;
+}
