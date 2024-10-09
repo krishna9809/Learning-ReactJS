@@ -1,0 +1,22 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "learning React",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishna9809/Learning-ReactJS.git"
+  },
+  "author": "Krishna Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishna9809/Learning-ReactJS/issues"
+  },
+  "homepage": "https://github.com/krishna9809/Learning-ReactJS#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

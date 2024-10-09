@@ -1,0 +1,10 @@
+package.json is configuration for npm
+
+there is 2 types of dependices
+
+1. dev dependices ->
+2. normal dependencies -> used in production also
+
+when we install any dev dependencies we will install it like --> npm -D 
+
+so here we are installing percel as dev dependencies --> npm install -D parcel 
