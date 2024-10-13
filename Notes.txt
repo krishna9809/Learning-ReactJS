@@ -8,3 +8,9 @@ there is 2 types of dependices
 when we install any dev dependencies we will install it like --> npm -D 
 
 so here we are installing percel as dev dependencies --> npm install -D parcel 
+
+diff between package.json vs package-lock.json
+
+package.json keep update the version and it is the configuration of npm
+package-lock.json keep the track of Exact the which version is installed of all the dependecies'
+
