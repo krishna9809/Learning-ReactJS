@@ -1,0 +1,55 @@
+package.json is configuration for npm
+
+there is 2 types of dependices
+
+1. dev dependices ->
+2. normal dependencies -> used in production also
+
+when we install any dev dependencies we will install it like --> npm -D 
+
+so here we are installing percel as dev dependencies --> npm install -D parcel 
+
+diff between package.json vs package-lock.json
+
+package.json keep update the version and it is the configuration of npm
+package-lock.json keep the track of Exact the which version is installed of all the dependecies'
+
+to host App on Server use -> npx parcel index.html
+
+npm --> just install the packages
+npx --> excute package
+
+1st way to use react --> cdn --> this is not a prefer way
+2nd way to use react --> npm
+
+install react using npm --> npm i react
+install react-dom --> npm i react-dom
+
+now we not want cdn lets erase it
+import react and react-dom
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+import js as module
+<script type="module" src="App.js"></script>
+
+
+# What Parcel Doing? 
+- Dev Build
+- Local Server
+- HMR --> Hot Module Replacement
+- Parcel uses File Watching Algorithm - written in C++
+- Caching - Faster Builds
+- Image Optimization
+- Minification 
+- Bundling 
+- Compressing 
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling 
+- HTTPs
+- Diaganostic
+- Error Handling
+- Tree Shaking --> remove unused Code
+
+Jsb  

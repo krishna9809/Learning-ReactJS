@@ -1,0 +1,20 @@
+// Laying the Foundation //
+
+for executing the Project Command is --> npx parcel index.html
+
+write in package.json
+
+"start": "parcel index.html",
+"build": "parcel build index.html",
+
+now for executing the project we to start with "npm run --Script_Name"
+
+e.g --> npm run start --> this will start my projecct
+
+shortcut --> npm start
+
+e.g --> npm run build --> this will build my project for production
+
+shortcut is not for build
+
+
