@@ -18,3 +18,46 @@ e.g --> npm run build --> this will build my project for production
 shortcut is not for build
 
 
+----------React Element------------
+
+React Elements are at the are objects
+
+So, Making React Elements Become very Complex than HTML so facebook developer introduced JSX React
+
+
+JSX is Not Part of React
+
+We can write react without JSX also but JSX make easy Life
+
+
+-> JSX is the Convention where we merge the HTML & JS
+
+-> JSX is Not HTML in JS 
+
+-> JSX is HTML like Syntax its looks like XML , HTML
+
+
+
+---------------------------------------------------------------
+
+This is How we create React Element using core React
+
+const heading = React.createElement("h1", {id: "heading" }, "Namastey");
+
+React.createElement ==> ReactElement-JS Object ==> HTMLElement(render)
+
+
+This is How we create React Element using JSX
+
+const jsxheading = <h1>Namestey in JSX</h1>
+
+JSX ==> React.createElement ==> ReactElement-JS Object ==> HTMLElement(render)
+
+JS Engine Understand Ecmascript does not understand JSX because JSX is not Proper and Pourly Javascript
+
+But JSX running due to Parcel. Parcel doing This
+
+JSX (transpiled before it reaches the JS) by Parcel using package by Babel
+
+--> in JSX give class with className
+--> use to give camel case in jsx
